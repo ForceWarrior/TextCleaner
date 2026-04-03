@@ -8,4 +8,8 @@ Data/settings.json
 venv/
 env/
 
+build/
+dist/
+*.spec
+
 .vscode/
