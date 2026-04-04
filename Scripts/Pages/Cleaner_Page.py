@@ -168,7 +168,6 @@ def build_cleaner_page(parent, Config):
         update_output()
 
     input_box.bind("<KeyRelease>", handle_key_release)
-    input_box.bind("<<Paste>>", lambda e: handle_paste())
 
     copy_button.configure(command=handle_copy)
     paste_button.configure(command=handle_paste)
